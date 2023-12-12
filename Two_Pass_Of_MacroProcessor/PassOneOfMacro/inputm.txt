@@ -1,0 +1,12 @@
+** MACRO m1
+** LDA ALPHA
+** STA BETA
+** MEND **
+** MACRO m2
+** MOV a,b
+** MEND **
+** START 1000
+** LDA a
+** CALL m1
+** CALL m2
+** END **
