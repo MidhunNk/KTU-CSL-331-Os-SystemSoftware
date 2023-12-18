@@ -60,7 +60,7 @@ void main()
             {
                 fprintf(f3, "\n %d %s %s %s", locctr, lab, opcode, opa);
                 fprintf(f4, "\n %d %s", locctr, lab);
-                locctr = locctr + 1;
+                locctr = locctr + strlen(opa);
             }
             else
             {
